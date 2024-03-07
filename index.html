@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Online Food Store</title>
+    <link rel="icon" type="image/x-icon" href="/images/foodstore.jpg" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Include Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="/Images/foodstore.jpg" alt="Food Store Logo" />
+        <h2>Food Store</h2>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">About Us</a></li>
+          <!-- Add more navigation links as needed -->
+        </ul>
+      </nav>
+    </header>
+
+    <div class="background">
+      <h1>Welcome to the Food Store!</h1>
+    </div>
+    <div id="app">
+      <div id="productList">
+        <!-- Food items will be dynamically added here -->
+      </div>
+      <div id="cart">
+        <h2>Shopping Cart</h2>
+        <ul id="cartItems">
+          <!-- Cart items will be dynamically added here -->
+        </ul>
+        <p>Total Price: $<span id="totalPrice">0.00</span></p>
+      </div>
+    </div>
+    <!-- Footer section -->
+    <footer>
+      <div class="social-icons">
+        <a href="#" class="icon instagram"
+          ><i class="fa-brands fa-instagram" style="color: #ffffff"></i
+        ></a>
+        <a href="#" class="icon facebook"
+          ><i class="fa-brands fa-facebook" style="color: #fafafa"></i
+        ></a>
+        <a href="#" class="icon twitter">
+          <i class="fa-brands fa-twitter" style="color: #ffffff"></i>
+        </a>
+      </div>
+      <p>&copy; 2023 Food Shoop. All rights reserved.</p>
+    </footer>
+    <!-- Include Swiper JS -->
+    <script src="app.js"></script>
+  </body>
+</html>
